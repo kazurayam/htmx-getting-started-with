@@ -19,7 +19,8 @@ const Top: FC<{ messages: string[] }> = (props: {
         {
             props.messages.map((message) => {
                 return <p>{message}</p>
-        })}
+            })
+        }
         </Layout>
     )
 }
