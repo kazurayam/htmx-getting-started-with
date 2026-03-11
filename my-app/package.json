@@ -3,7 +3,8 @@
   "module": "src/index",
   "type": "module",
   "scripts": {
-    "dev": "bun run --hot src/index.ts"
+    "dev": "bun run --hot src/index.ts",
+    "starter": "bun run --hot src/starter.tsx"
   },
   "dependencies": {
     "hono": "^4.12.5"
