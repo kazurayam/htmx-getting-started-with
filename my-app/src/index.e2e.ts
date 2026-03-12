@@ -11,7 +11,7 @@ describe('E2E testing using playwright-chromium', async () => {
         // Launch the browser
         browser = await chromium.launch()
     })
-    it("should return HTML content with 'Hello htmx!'", async () => {
+    it("should return HTML Element with content text '読み込み'", async () => {
         // Create a new page and navigate to a URL
         const page = await browser.newPage();
         await page.goto('http://localhost:3000');
