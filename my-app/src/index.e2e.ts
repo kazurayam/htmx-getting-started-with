@@ -19,7 +19,7 @@ describe('E2E testing using playwright-chromium', async () => {
         // Click the button!
         await button.click();
         const p = page.getByText('こんにちは!');
-        expect(await button.isVisible()).toBeTrue();
+        expect(await p.isVisible()).toBeTrue();
     });
     afterAll(async () => {
         // Clean up
